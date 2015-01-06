@@ -1,0 +1,21 @@
+html,body {
+	height: 200px;
+}
+
+table {
+	width:350px;
+}
+
+.example {
+	font-size: 0.875em;
+}
+
+.title-bar {
+	width:300px;
+	text-align:center;
+}
+
+.top-heading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

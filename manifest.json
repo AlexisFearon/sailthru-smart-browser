@@ -1,0 +1,23 @@
+{
+  "name": "Sailthru Smart Browser Extension",
+  "version": "1.0.3",
+  "author": "Joe Pikowski",
+  "manifest_version": 2,
+  "short_name": "Sailthru Smart Browser",
+  "description": "A quick URL-hopping extension for the Sailthru team.",
+  "icons": {
+    "16": "media/icon16.png",
+    "48": "media/icon48.png",
+    "128": "media/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "views/popup.html"
+  },
+  "omnibox": {
+  	"keyword": "st"
+  },
+  "background": {
+    "scripts": ["lib/background.js","lib/smartbrowser.js"],
+    "persistent": false
+  }
+}
