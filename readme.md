@@ -4,7 +4,7 @@ A quick URL-hopping extension for the Sailthru team. This extension adds navigat
 
   - MY / SU
   - Zendesk
-  - Fogbugz
+  - JIRA
   - DB Query
 
 ## Version
@@ -22,14 +22,14 @@ Will jump to the Zendesk Case URL for the Case ID specified, e.g.
     
     
     
-## Fogbugz
+## JIRA
 ### Syntax
 
-    st fb [integer case_id]
+    st JIRA [string ticket_id]
 
-Will jump to the Zendesk Case URL for the Case ID specified, e.g.
+Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.
     
-    https://sailthru.fogbugz.com/f/cases/12345/
+    https://sailthru.atlassian.com/browse/SE-155
 
 ## DB Query
 ### Syntax

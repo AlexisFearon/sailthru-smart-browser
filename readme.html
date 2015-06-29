@@ -4,7 +4,7 @@
 <ul>
 <li>MY / SU</li>
 <li>Zendesk</li>
-<li>Fogbugz</li>
+<li>JIRA</li>
 <li>DB Query</li>
 </ul>
 <h2 id="version">Version</h2>
@@ -14,11 +14,11 @@
 <pre><code>st zd [integer case_id]
 </code></pre><p>Will jump to the Zendesk Case URL for the Case ID specified, e.g.</p>
 <pre><code>https://sailthru.zendesk.com/tickets/108591
-</code></pre><h2 id="fogbugz">Fogbugz</h2>
+</code></pre><h2 id="fogbugz">JIRA</h2>
 <h3 id="syntax">Syntax</h3>
-<pre><code>st fb [integer case_id]
-</code></pre><p>Will jump to the Zendesk Case URL for the Case ID specified, e.g.</p>
-<pre><code>https://sailthru.fogbugz.com/f/cases/12345/
+<pre><code>st jira [string ticket_id]
+</code></pre><p>Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.</p>
+<pre><code>https://sailthru.atlassian.com/browse/SE-155
 </code></pre><h2 id="db-query">DB Query</h2>
 <h3 id="syntax">Syntax</h3>
 <pre><code>st db [string collection] 
