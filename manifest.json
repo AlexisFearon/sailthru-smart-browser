@@ -1,9 +1,9 @@
 {
-  "name": "Sailthru Smart Browser Extension",
+  "name": "Sailthru Smart Browser Extension Lite",
   "version": "1.1.2",
   "author": "Joe Pikowski",
   "manifest_version": 2,
-  "short_name": "Sailthru Smart Browser",
+  "short_name": "Sailthru Smart Browser Lite",
   "description": "A quick URL-hopping extension for the Sailthru team.",
   "icons": {
     "16": "media/icon16.png",

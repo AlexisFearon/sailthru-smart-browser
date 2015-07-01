@@ -1,11 +1,10 @@
-# Sailthru Smart Browser Chrome Extension
+# Sailthru Smart Browser Chrome Extension Lite
 
 A quick URL-hopping extension for the Sailthru team. This extension adds navigation shortcuts (via a shorthand notation) for:
 
   - MY / SU
   - Zendesk
   - JIRA
-  - DB Query
 
 ## Version
 
@@ -30,29 +29,6 @@ Will jump to the Zendesk Case URL for the Case ID specified, e.g.
 Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.
     
     https://sailthru.atlassian.com/browse/SE-155
-
-## DB Query
-### Syntax
-    st db [string collection] 
-    Optional (At Least One Required): [string json] e:[string email] c:[integer client_id] 
-    Optional: l:[integer limit] f:[string fields] (+/-)[string sort]
-    Optional: string #count
-
-Requires a DB collection to query. Can supply the full JSON-formatted query, and/or "email" and "client_id" with the shorthand above. The latter parameters two will be added into the JSON structure.
-
-Limit, Fields to return, Count, and Sort parameter can all be included as shown above.
-
-### Examples
-
-    st db profile {"client_id":4078} e:jpikowski@sailthru.com
-
-    st db profile c:4078 e:jpikowski@sailthru.com
-
-    st db schedule.trigger {"status":"executed"} c:842 -executed_time l:50
-    
-    st db blast 123456
-
-
 
 
 ## MY
