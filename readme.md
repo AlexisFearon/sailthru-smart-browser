@@ -9,7 +9,7 @@ A quick URL-hopping extension for the Sailthru team. This extension adds navigat
 
 ## Version
 
-1.1.1
+1.1.2
 
 ## Zendesk
 ### Syntax
@@ -25,7 +25,7 @@ Will jump to the Zendesk Case URL for the Case ID specified, e.g.
 ## JIRA
 ### Syntax
 
-    st JIRA [string ticket_id]
+    st jira [string ticket_id]
 
 Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.
     
@@ -35,11 +35,12 @@ Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.
 ### Syntax
     st db [string collection] 
     Optional (At Least One Required): [string json] e:[string email] c:[integer client_id] 
-    Optional: [integer limit] f:[string fields] (+/-)[string sort]
+    Optional: l:[integer limit] f:[string fields] (+/-)[string sort]
+    Optional: string #count
 
 Requires a DB collection to query. Can supply the full JSON-formatted query, and/or "email" and "client_id" with the shorthand above. The latter parameters two will be added into the JSON structure.
 
-Limit, Fields to return and Sort parameter can all be included as shown above.
+Limit, Fields to return, Count, and Sort parameter can all be included as shown above.
 
 ### Examples
 
