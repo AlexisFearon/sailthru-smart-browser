@@ -111,7 +111,6 @@ Other optional fields can be entered depending on the page. A full accounting of
 
 ### Pages
 
-* **[hitlist,product]** - Product Feature Hitlist
 * **[blast,blasts,campaign,campaigns]** - Campaigns Page
     * [option] Scheduled, Generating, Generated, Sending, Notsendingsent, Sent
     * [id] Client ID
