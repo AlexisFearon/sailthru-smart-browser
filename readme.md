@@ -8,7 +8,7 @@ A quick URL-hopping extension for the Sailthru team. This extension adds navigat
 
 ## Version
 
-1.1.3
+1.1.4
 
 ## Zendesk
 ### Syntax
