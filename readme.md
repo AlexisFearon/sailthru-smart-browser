@@ -6,10 +6,11 @@ A quick URL-hopping extension for the Sailthru team. This extension adds navigat
   - Zendesk
   - JIRA
   - DB Query
+  - Docs
 
 ## Version
 
-1.1.4
+1.1.5
 
 ## Zendesk
 ### Syntax
@@ -30,6 +31,15 @@ Will jump to the Zendesk Case URL for the Case ID specified, e.g.
 Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.
     
     https://sailthru.atlassian.com/browse/SE-155
+
+## Documentation
+### Syntax
+
+    st docs [string search]
+
+Will jump to a Documentation search for the query specified, e.g.
+    
+    http://getstarted.sailthru.com/?s=signup%20confirm%20link
 
 ## DB Query
 ### Syntax
