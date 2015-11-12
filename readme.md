@@ -6,10 +6,11 @@ A quick URL-hopping extension for the Sailthru team. This extension adds navigat
   - Zendesk
   - JIRA
   - Docs
+  - Knowledge Base
 
 ## Version
 
-1.1.5
+1.1.6
 
 ## Zendesk
 ### Syntax
@@ -39,7 +40,16 @@ Will jump to the JIRA Ticket URL for the Ticket ID specified, e.g.
 Will jump to a Documentation search for the query specified, e.g.
     
     http://getstarted.sailthru.com/?s=signup%20confirm%20link
+
+## Knowledge Base Search
+### Syntax
+
+    st kb [string search]
+
+Will jump to a Knowledge Base search for the query specified, e.g.
     
+    https://sailthru.zendesk.com/hc/en-us/search?query=zephyr
+
 ## MY
 ### Syntax
     st my [string page] 
